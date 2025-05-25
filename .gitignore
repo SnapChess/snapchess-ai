@@ -1,0 +1,159 @@
+# PyCharm/IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+conda-meta/
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# AI/ML Model files and datasets
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+*.safetensors
+models/
+checkpoints/
+saved_models/
+weights/
+artifacts/
+
+# Large datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+*.npy
+*.npz
+*.mat
+*.hdf
+*.h5
+
+# Training logs and outputs
+logs/
+runs/
+tensorboard/
+wandb/
+mlruns/
+outputs/
+results/
+experiments/
+lightning_logs/
+
+# Configuration files with sensitive data
+.env
+.env.local
+.env.*.local
+config.ini
+secrets.yaml
+api_keys.txt
+
+# GPU/CUDA cache
+.nv_cache/
+.triton/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+logs/
+tb_logs/
+
+# PyTorch Lightning
+lightning_logs/
+
+# Hydra
+outputs/
+.hydra/
+
+# DVC (Data Version Control)
+.dvc/
+.dvcignore
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+*.err
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cache directories
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Backup files
+*.bak
+*.backup
+*.orig
